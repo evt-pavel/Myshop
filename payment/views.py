@@ -17,8 +17,8 @@ def payment_process(request):
         cancel_url = request.build_absolute_uri(reverse('payment:canceled'))
         session_data = {
             'mode': 'payment',
-            'client_rederence_id': order_id,
-            'succes_url': success_url,
+            'client_reference_id': order_id,
+            'success_url': success_url,
             'cancel_url': cancel_url,
             'line_items': []
         }

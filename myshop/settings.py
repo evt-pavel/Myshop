@@ -140,4 +140,6 @@ EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 STRIPE_PUBLISHABLE_KEY = 'pk_test_51Ndg88BaaVyKC1dCpTDEy7nHcFQynAGt6zLTFNYlH64RqSMedfgzOqXWCvwzpB5M4Hgutuy86g9ep7qw8GAiiSE900xjN7DsT8'
 STRIPE_SECRET_KEY = 'sk_test_51Ndg88BaaVyKC1dCQdbqwLsuhAbGwx2K15d4L426kCdWjJzUsKsT61sYW4QsjdMyx7HbvOQm8Aea8ZRPgPKixgZp00l1vEynkN'
 STRIPE_API_VERSION = '2022-08-01'
+STRIPE_WEBHOOK_SECRET = 'whsec_7e563815cee4b6385ae53ef279ed290f083a905a3fe6f45800ee2c8d6c759d83'
+                        
 
