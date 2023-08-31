@@ -145,3 +145,8 @@ STRIPE_WEBHOOK_SECRET = 'whsec_7e563815cee4b6385ae53ef279ed290f083a905a3fe6f4580
                         
 
 STATIC_ROOT = BASE_DIR / 'static'
+
+
+REDIS_HOST = 'lockalhost'
+REDIS_PORT = 6379
+REDIS_DB = 1
